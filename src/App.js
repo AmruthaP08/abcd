@@ -2,6 +2,7 @@ import React from 'react'
 import { Dropdown } from 'semantic-ui-react'
 
 const DropdownExampleIcon = () => (
+  
   <Dropdown
     text='Filter'
     icon='filter'
@@ -9,6 +10,7 @@ const DropdownExampleIcon = () => (
     labeled
     button
     className='icon'>
+      <h1>hello</h1>
     <Dropdown.Menu>
       <Dropdown.Header icon='tags' content='Filter by tag' />
       <Dropdown.Divider />
